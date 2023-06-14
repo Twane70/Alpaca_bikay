@@ -1,0 +1,57 @@
+{   
+    "type": "object",
+    "properties": {
+        "section_infos":{
+            "type": "object",
+            "properties":{
+                "nom_entreprise": {},
+                "num_entreprise": {
+                    "minimum":   100,
+                    "maximum": 10000
+                }
+            }
+        },
+        "section_2":{
+            "type": "object",
+            "properties":{
+                "validated_field": {},
+                "file": {},
+                "select_field": {
+                    "enum": [
+                        "Option 1",
+                        "Option 2",
+                        "Option 3"
+                    ]
+                }
+            }
+        },
+        "date_field": {},
+        "faux": {},
+        "commentaire": {
+            "dependencies": "faux"
+        },
+        "table": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "numero": {
+                        "type": "integer",
+                        "title": "Numéro Employé"
+                    },
+                    "prenom": {
+                        "type": "string",
+                        "title": "Prénom"
+                    },
+                    "nom": {
+                        "type": "string",
+                        "title": "Nom"
+                    }
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "commentaire": ["faux"]
+    }
+}

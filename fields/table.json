@@ -1,0 +1,16 @@
+{
+    "type": "table",
+    "label": "Liste des personnes ressortissantes étrangères auxquelles l’emploi temporaire est offert",
+    "key": {
+        "type": "integer",
+        "title": "Numéro Employé"
+    },
+    "title": {
+        "type": "string",
+        "title": "Prénom"
+    },
+    "amount": {
+        "type": "string",
+        "title": "Nom"
+    }
+}

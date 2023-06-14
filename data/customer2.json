@@ -1,0 +1,14 @@
+{
+    "table":[{
+        "numero": 31415926,
+        "nom": "DUPONT",
+        "prenom": "Marcel"
+    }],
+    "section_infos": {
+        "num_entreprise": "667"
+    },
+    "section_2": {
+        "validated_field":"Answer validated :)"
+    },
+    "date_field": "1234"
+}

@@ -1,0 +1,13 @@
+{
+    "label": "Infos de l'entreprise",
+    "fields": {
+        "nom_entreprise": {
+            "type":"text",
+            "label":"Nom de l'entreprise"
+        },
+        "num_entreprise": {
+            "type": "integer",
+            "label": "Numéro de l'entreprise"
+        }
+    }
+}

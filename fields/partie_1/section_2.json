@@ -1,0 +1,26 @@
+{
+    "label": "Réponse validée",
+    "fields": {
+        "validated_field": {
+            "type": "text",
+            "disabled": true,
+            "label": "Read only field example"
+        },
+        "file": {
+            "type": "file",
+            "label": "File Upload"
+        },
+        "select_field": {
+            "type": "select",
+            "label": "Select an option",
+            "multiselect": {
+                "disableIfEmpty": true
+            },
+            "optionLabels": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{   
+    "parent": "bootstrap-edit",
+    "layout": {
+        "template": "./wizard_template.html",
+        "bindings": {
+            "date_field": "#left",
+            "faux": "#right",
+            "commentaire": "#right"
+        }
+    },
+    "wizard": {
+        "bindings": {
+            "section_infos": 1,
+            "section_2": 1,
+            "table": 1,
+            "date_field": "#left",
+            "faux":"#right",
+            "commentaire":"#right"
+            
+        },
+        "steps": [{
+                "title": "Entreprise",
+                "description": "Renseignements"
+            }, {
+                "title": "Emploi",
+                "description": "Renseignements"
+            }
+        ],
+    "showProgressBar": false,
+    "hideSubmitButton": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "section_infos":"/fields/partie_1/section_infos.json",
+        "section_2":"/fields/partie_1/section_2.json",
+        "date_field": "/fields/date_field.json",
+        "faux": "/fields/faux.json",
+        "commentaire": "/fields/commentaire.json",
+        "table": "/fields/table.json"
+    }
+}
