@@ -4,11 +4,11 @@
         "section_infos":{
             "type": "object",
             "properties":{
-                "nom_entreprise": {},
                 "num_entreprise": {
                     "minimum":   100,
                     "maximum": 10000
-                }
+                },
+                "nom_entreprise": {}
             }
         },
         "section_2":{

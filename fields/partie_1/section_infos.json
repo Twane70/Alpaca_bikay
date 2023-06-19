@@ -2,8 +2,9 @@
     "label": "Infos de l'entreprise",
     "fields": {
         "nom_entreprise": {
-            "type":"text",
-            "label":"Nom de l'entreprise"
+            "type": "date",
+            "dateFormat": "DD/MM/YYYY",
+            "label":"Date de création"
         },
         "num_entreprise": {
             "type": "integer",
